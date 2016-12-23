@@ -1,5 +1,5 @@
 
-process.env.npm_test = 'true';
+process.env.ycd = 'true';
 console.log('---------------')
 /*
 var API = require('./lib/API.js');

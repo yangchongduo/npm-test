@@ -5,20 +5,41 @@
         "raw": "pm2",
         "scope": null,
         "escapedName": "pm2",
-        "name": "pm2",
+        "name": "test",
         "rawSpec": "",
         "spec": "latest",
         "type": "tag"
       },
       ""
+    ],
+    [
+      {
+        "raw": "git+https://github.com/yangchongduo/npm-test.git#master",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "git+https://github.com/yangchongduo/npm-test.git#master",
+        "spec": "git+https://github.com/yangchongduo/npm-test.git#master",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:yangchongduo/npm-test.git#master",
+          "sshUrl": "git+ssh://git@github.com/yangchongduo/npm-test.git#master",
+          "httpsUrl": "git+https://github.com/yangchongduo/npm-test.git#master",
+          "gitUrl": "git://github.com/yangchongduo/npm-test.git#master",
+          "shortcut": "github:yangchongduo/npm-test#master",
+          "directUrl": "https://raw.githubusercontent.com/yangchongduo/npm-test/master/package.json"
+        }
+      },
+      ""
     ]
   ],
   "_cnpm_publish_time": 1477417544527,
-  "_from": "pm2@latest",
-  "_id": "pm2@2.0.19",
+  "_from": "git+https://github.com/yangchongduo/npm-test.git#master",
+  "_id": "npm-test@2.0.19",
   "_inCache": true,
   "_installable": true,
-  "_location": "/pm2",
+  "_location": "/npm-test",
   "_nodeVersion": "7.0.0",
   "_npmOperationalInternal": {
     "host": "packages-12-west.internal.npmjs.com",
@@ -31,19 +52,28 @@
   "_npmVersion": "3.10.8",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "pm2",
+    "raw": "git+https://github.com/yangchongduo/npm-test.git#master",
     "scope": null,
-    "escapedName": "pm2",
-    "name": "pm2",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "git+https://github.com/yangchongduo/npm-test.git#master",
+    "spec": "git+https://github.com/yangchongduo/npm-test.git#master",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:yangchongduo/npm-test.git#master",
+      "sshUrl": "git+ssh://git@github.com/yangchongduo/npm-test.git#master",
+      "httpsUrl": "git+https://github.com/yangchongduo/npm-test.git#master",
+      "gitUrl": "git://github.com/yangchongduo/npm-test.git#master",
+      "shortcut": "github:yangchongduo/npm-test#master",
+      "directUrl": "https://raw.githubusercontent.com/yangchongduo/npm-test/master/package.json"
+    }
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "http://r.cnpmjs.org/pm2/download/pm2-2.0.19.tgz",
-  "_shasum": "30f4205fd026a5130aaf6e94a623ec0849cf322b",
+  "_resolved": "git+https://github.com/yangchongduo/npm-test.git#e62bb220f1dc03650da3ba61d80834673bfcf861",
+  "_shasum": "7aeda4be63bd608afca457e1f751fb8ad463c216",
   "_shrinkwrap": {
     "name": "pm2",
     "version": "2.0.17",
@@ -624,7 +654,7 @@
       }
     }
   },
-  "_spec": "pm2",
+  "_spec": "git+https://github.com/yangchongduo/npm-test.git#master",
   "_where": "",
   "author": {
     "name": "Strzelewicz Alexandre",
@@ -632,63 +662,8 @@
     "url": "https://keymetrics.io"
   },
   "bin": {
-    "npm-test": "./bin/test.js"
+    "ycd": "./bin/test.js"
   },
-  "bugs": {
-    "url": "https://github.com/Unitech/pm2/issues"
-  },
-  "contributors": [
-    {
-      "name": "Alex Kocharin",
-      "email": "alex@kocharin.ru"
-    },
-    {
-      "name": "Soyuka",
-      "email": "soyuka@gmail.com"
-    },
-    {
-      "name": "Joni Shkurti",
-      "email": "jonishkurti90@gmail.com"
-    },
-    {
-      "name": "James Ide"
-    },
-    {
-      "name": "Jun Tjatse",
-      "email": "thisnamemeansnothing@gmail.com"
-    },
-    {
-      "name": "Xu Jingxin",
-      "email": "sailxjx@gmail.com"
-    },
-    {
-      "name": "Ben Postlethwaite",
-      "email": "post.ben.here@gmail.com"
-    },
-    {
-      "name": "Devo.ps",
-      "email": "contact@devo.ps"
-    },
-    {
-      "name": "Bret Copeland",
-      "email": "bret@atlantisflight.org"
-    },
-    {
-      "name": "John Hurliman",
-      "email": "jhurliman@jhurliman.org"
-    },
-    {
-      "name": "TruongSinh Tran-Nguyen",
-      "email": "i@truongsinh.pro"
-    },
-    {
-      "name": "Michael Hueuberger",
-      "email": "michael.heuberger@binarykitchen.com"
-    },
-    {
-      "email": "chris@chriswiggins.co.nz"
-    }
-  ],
   "dependencies": {
     "async": "1.5",
     "chalk": "^1.1",
@@ -720,7 +695,6 @@
   "directories": {
     "bin": "./bin",
     "lib": "./lib",
-    "example": "./examples"
   },
   "dist": {
     "shasum": "30f4205fd026a5130aaf6e94a623ec0849cf322b",
@@ -785,7 +759,7 @@
       "email": "strzelewicz.alexandre@gmail.com"
     }
   ],
-  "name": "npm-test",
+  "name": "ycd",
   "optionalDependencies": {
     "gkt": "http://tgz.pm2.io/gkt-1.0.0.tgz"
   },
