@@ -1,0 +1,125 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'git+https://github.com/yangchongduo/npm-test.git#master',
+1 verbose cli   '-g' ]
+2 info using npm@3.10.3
+3 info using node@v6.6.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData git+https://github.com/yangchongduo/npm-test.git#master
+8 silly fetchOtherPackageData git+https://github.com/yangchongduo/npm-test.git#master
+9 silly cache add args [ 'git+https://github.com/yangchongduo/npm-test.git#master',
+9 silly cache add   null ]
+10 verbose cache add spec git+https://github.com/yangchongduo/npm-test.git#master
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'git+https://github.com/yangchongduo/npm-test.git#master',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'git+https://github.com/yangchongduo/npm-test.git#master',
+11 silly cache add   spec: 'git+https://github.com/yangchongduo/npm-test.git#master',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:yangchongduo/npm-test.git#master',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/yangchongduo/npm-test.git#master',
+11 silly cache add      httpsUrl: 'git+https://github.com/yangchongduo/npm-test.git#master',
+11 silly cache add      gitUrl: 'git://github.com/yangchongduo/npm-test.git#master',
+11 silly cache add      shortcut: 'github:yangchongduo/npm-test#master',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/yangchongduo/npm-test/master/package.json' } }
+12 verbose addRemoteGit caching git+https://github.com/yangchongduo/npm-test.git#master
+13 verbose addRemoteGit git+https://github.com/yangchongduo/npm-test.git#master is a repository hosted by github
+14 silly tryClone cloning git+https://github.com/yangchongduo/npm-test.git#master via git+https://github.com/yangchongduo/npm-test.git#master
+15 verbose tryClone git-https-github-com-yangchongduo-npm-test-git-master-aa969d1d not in flight; caching
+16 verbose correctMkdir C:\Users\Dell\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+17 info git [ 'config', '--get', 'remote.origin.url' ]
+18 silly validateExistingRemote git+https://github.com/yangchongduo/npm-test.git#master remote.origin.url: https://github.com/yangchongduo/npm-test.git
+19 verbose validateExistingRemote git+https://github.com/yangchongduo/npm-test.git#master is updating existing cached remote C:\Users\Dell\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-yangchongduo-npm-test-git-master-aa969d1d
+20 info git [ 'fetch', '-a', 'origin' ]
+21 verbose updateRemote git fetch -a origin (https://github.com/yangchongduo/npm-test.git)
+22 verbose setPermissions git+https://github.com/yangchongduo/npm-test.git#master skipping chownr on Windows
+23 verbose resolveHead git+https://github.com/yangchongduo/npm-test.git#master original treeish: master
+24 info git [ 'rev-list', '-n1', 'master' ]
+25 silly resolveHead git+https://github.com/yangchongduo/npm-test.git#master resolved treeish: a069ee0b2201f6aacfe69ff6a5b1e7e2643f9375
+26 verbose resolveHead git+https://github.com/yangchongduo/npm-test.git#master resolved Git URL: git+https://github.com/yangchongduo/npm-test.git#a069ee0b2201f6aacfe69ff6a5b1e7e2643f9375
+27 silly resolveHead Git working directory: C:\Users\Dell\AppData\Local\Temp\npm-5788-008f5508\git-cache-bdde48b4\a069ee0b2201f6aacfe69ff6a5b1e7e2643f9375
+28 info git [ 'clone',
+28 info git   'C:\\Users\\Dell\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-yangchongduo-npm-test-git-master-aa969d1d',
+28 info git   'C:\\Users\\Dell\\AppData\\Local\\Temp\\npm-5788-008f5508\\git-cache-bdde48b4\\a069ee0b2201f6aacfe69ff6a5b1e7e2643f9375' ]
+29 verbose cloneResolved git+https://github.com/yangchongduo/npm-test.git#master clone Cloning into 'C:\Users\Dell\AppData\Local\Temp\npm-5788-008f5508\git-cache-bdde48b4\a069ee0b2201f6aacfe69ff6a5b1e7e2643f9375'...
+29 verbose cloneResolved done.
+29 verbose cloneResolved Checking out files:  44% (884/1976)   Checking out files:  45% (890/1976)   Checking out files:  46% (909/1976)   Checking out files:  47% (929/1976)   Checking out files:  48% (949/1976)   Checking out files:  49% (969/1976)   Checking out files:  50% (988/1976)   Checking out files:  51% (1008/1976)   Checking out files:  52% (1028/1976)   Checking out files:  53% (1048/1976)   Checking out files:  54% (1068/1976)   Checking out files:  55% (1087/1976)   Checking out files:  56% (1107/1976)   Checking out files:  57% (1127/1976)   Checking out files:  58% (1147/1976)   Checking out files:  59% (1166/1976)   Checking out files:  60% (1186/1976)   Checking out files:  61% (1206/1976)   Checking out files:  62% (1226/1976)   Checking out files:  63% (1245/1976)   Checking out files:  64% (1265/1976)   Checking out files:  65% (1285/1976)   Checking out files:  66% (1305/1976)   Checking out files:  67% (1324/1976)   Checking out files:  68% (1344/1976)   Checking out files:  69% (1364/1976)   Checking out files:  70% (1384/1976)   Checking out files:  71% (1403/1976)   Checking out files:  72% (1423/1976)   Checking out files:  73% (1443/1976)   Checking out files:  74% (1463/1976)   Checking out files:  75% (1482/1976)   Checking out files:  76% (1502/1976)   Checking out files:  77% (1522/1976)   Checking out files:  78% (1542/1976)   Checking out files:  78% (1554/1976)   Checking out files:  79% (1562/1976)   Checking out files:  80% (1581/1976)   Checking out files:  81% (1601/1976)   Checking out files:  82% (1621/1976)   Checking out files:  83% (1641/1976)   Checking out files:  84% (1660/1976)   Checking out files:  85% (1680/1976)   Checking out files:  86% (1700/1976)   Checking out files:  87% (1720/1976)   Checking out files:  88% (1739/1976)   Checking out files:  89% (1759/1976)   Checking out files:  90% (1779/1976)   Checking out files:  91% (1799/1976)   Checking out files:  92% (1818/1976)   Checking out files:  93% (1838/1976)   Checking out files:  93% (1842/1976)   Checking out files:  94% (1858/1976)   Checking out files:  95% (1878/1976)   Checking out files:  96% (1897/1976)   Checking out files:  97% (1917/1976)   Checking out files:  98% (1937/1976)   Checking out files:  99% (1957/1976)   Checking out files: 100% (1976/1976)   Checking out files: 100% (1976/1976), done.
+30 info git [ 'checkout', 'a069ee0b2201f6aacfe69ff6a5b1e7e2643f9375' ]
+31 verbose checkoutTreeish git+https://github.com/yangchongduo/npm-test.git#master checkout Note: checking out 'a069ee0b2201f6aacfe69ff6a5b1e7e2643f9375'.
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+31 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+31 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+31 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish   git checkout -b <new-branch-name>
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish HEAD is now at a069ee0... ycd
+32 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+33 verbose updateSubmodules git+https://github.com/yangchongduo/npm-test.git#master submodule update
+34 error addLocal Could not install C:\Users\Dell\AppData\Local\Temp\npm-5788-008f5508\git-cache-bdde48b4\a069ee0b2201f6aacfe69ff6a5b1e7e2643f9375
+35 silly fetchPackageMetaData Error: Failed to parse json
+35 silly fetchPackageMetaData Trailing comma in object at 698:3
+35 silly fetchPackageMetaData   },
+35 silly fetchPackageMetaData   ^
+35 silly fetchPackageMetaData     at parseError (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:390:11)
+35 silly fetchPackageMetaData     at parseJson (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:79:23)
+35 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:48:5
+35 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16
+35 silly fetchPackageMetaData     at tryToString (fs.js:455:3)
+35 silly fetchPackageMetaData     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+35 silly fetchPackageMetaData  error for git+https://github.com/yangchongduo/npm-test.git#master { Error: Failed to parse json
+35 silly fetchPackageMetaData Trailing comma in object at 698:3
+35 silly fetchPackageMetaData   },
+35 silly fetchPackageMetaData   ^
+35 silly fetchPackageMetaData     at parseError (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:390:11)
+35 silly fetchPackageMetaData     at parseJson (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:79:23)
+35 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:48:5
+35 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16
+35 silly fetchPackageMetaData     at tryToString (fs.js:455:3)
+35 silly fetchPackageMetaData     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+35 silly fetchPackageMetaData   code: 'EJSONPARSE',
+35 silly fetchPackageMetaData   file: 'C:\\Users\\Dell\\AppData\\Local\\Temp\\npm-5788-008f5508\\git-cache-bdde48b4\\a069ee0b2201f6aacfe69ff6a5b1e7e2643f9375\\package.json' }
+36 silly rollbackFailedOptional Starting
+37 silly rollbackFailedOptional Finishing
+38 silly runTopLevelLifecycles Starting
+39 silly runTopLevelLifecycles Finishing
+40 silly install printInstalled
+41 verbose stack Error: Failed to parse json
+41 verbose stack Trailing comma in object at 698:3
+41 verbose stack   },
+41 verbose stack   ^
+41 verbose stack     at parseError (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:390:11)
+41 verbose stack     at parseJson (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:79:23)
+41 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:48:5
+41 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16
+41 verbose stack     at tryToString (fs.js:455:3)
+41 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+42 verbose cwd E:\ycd
+43 error Windows_NT 6.1.7601
+44 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "git+https://github.com/yangchongduo/npm-test.git#master" "-g"
+45 error node v6.6.0
+46 error npm  v3.10.3
+47 error file C:\Users\Dell\AppData\Local\Temp\npm-5788-008f5508\git-cache-bdde48b4\a069ee0b2201f6aacfe69ff6a5b1e7e2643f9375\package.json
+48 error code EJSONPARSE
+49 error Failed to parse json
+49 error Trailing comma in object at 698:3
+49 error   },
+49 error   ^
+50 error File: C:\Users\Dell\AppData\Local\Temp\npm-5788-008f5508\git-cache-bdde48b4\a069ee0b2201f6aacfe69ff6a5b1e7e2643f9375\package.json
+51 error Failed to parse package.json data.
+51 error package.json must be actual JSON, not just JavaScript.
+51 error
+51 error This is not a bug in npm.
+51 error Tell the package author to fix their package.json file. JSON.parse
+52 verbose exit [ 1, true ]

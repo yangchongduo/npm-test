@@ -694,7 +694,7 @@
   },
   "directories": {
     "bin": "./bin",
-    "lib": "./lib",
+    "lib": "./lib"
   },
   "dist": {
     "shasum": "30f4205fd026a5130aaf6e94a623ec0849cf322b",
