@@ -662,7 +662,7 @@
     "url": "https://keymetrics.io"
   },
   "bin": {
-    "ycd": "./bin/test.js"
+    "ycd": "./bin/init.js"
   },
   "dependencies": {
     "async": "1.5",
