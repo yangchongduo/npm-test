@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f12bdf9d-1208-4daa-ae58-7889c511feb7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/init.js" afterPath="$PROJECT_DIR$/bin/init.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/test.js" afterPath="$PROJECT_DIR$/bin/init.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,22 +21,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="init.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bin/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="154">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="661" column="21" lean-forward="false" selection-start-line="661" selection-start-column="21" selection-end-line="661" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="3102">
+              <caret line="716" column="4" lean-forward="true" selection-start-line="716" selection-start-column="4" selection-end-line="716" selection-end-column="4" />
+              <folding>
+                <element signature="n#!!block;n#_shrinkwrap#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,6 +68,7 @@
         <option value="$PROJECT_DIR$/笔记" />
         <option value="$PROJECT_DIR$/bin/test.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/bin/init.js" />
       </list>
     </option>
   </component>
@@ -223,12 +224,12 @@
       <option name="presentableId" value="Default" />
       <updated>1482456503109</updated>
       <workItem from="1482456505867" duration="3392000" />
-      <workItem from="1482460373181" duration="363000" />
+      <workItem from="1482460373181" duration="1774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3755000" />
+    <option name="totallyTimeSpent" value="5166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="728" extended-state="0" />
@@ -313,18 +314,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/init.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="3102">
+          <caret line="716" column="4" lean-forward="true" selection-start-line="716" selection-start-column="4" selection-end-line="716" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!block;n#_shrinkwrap#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/bin/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="661" column="21" lean-forward="false" selection-start-line="661" selection-start-column="21" selection-end-line="661" selection-end-column="21" />
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
